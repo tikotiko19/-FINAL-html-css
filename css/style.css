@@ -1,0 +1,126 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.medicare-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 110px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+.inner-header {
+  display: flex;
+  width: 100%;
+  max-width: 2000px;
+  height: 110px;
+  margin: 0 auto;
+  /* overflow: hidden; */
+}
+
+.nav-zone {
+  background-color: rgb(182, 191, 218);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 60px;
+  position: relative;
+  z-index: 2;
+  /* cutter */
+  clip-path: polygon(
+    0% 0%,
+    calc(100% - 25px) 0%,
+    100% 50%,
+    calc(100% - 25px) 100%,
+    0% 100%
+  );
+}
+
+/* Logo Section */
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  display: block;
+}
+
+.logo-text {
+  color: rgb(41, 70, 186);
+  font-size: 35px;
+  text-shadow: 2px 2px 3px white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  box-shadow: 0px 4px 12px #e2e8f0;
+  border-radius: 50px;
+  padding: 10px 20px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.hamburger-btn {
+  display: none;    
+  cursor: pointer; 
+  color: white;    
+  font-size: 28px;  
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 70px;
+  margin-right: 40px;
+}
+
+.nav-link {
+  color: lightcyan;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.2s ease;
+  text-shadow: 2px 2px 3px black;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: darkblue;
+  border-radius: 5px;
+}
+
+/* --- Right side --- */
+.action-zone {
+  background-color: darkblue;
+  width: 320px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 20px;
+  margin-left: -24px;
+  position: relative;
+  z-index: 1;
+}
+
+/*  Appointment Button */
+.btn-appointment {
+  background-color: deepskyblue;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 14px 35px;
+  border-radius: 50px;
+  text-shadow: 2px 2px 3px black;
+}
+
+.btn-appointment:hover {
+  background-color: blue;
+}
