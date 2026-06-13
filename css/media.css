@@ -2,7 +2,28 @@
   .nav-links {
     gap: 35px;
   }
+  /* <!-- ========================================== --> */
+  .hero-inner {
+    min-height: 600px;
+  }
+
+  .hero-title {
+    font-size: 46px;
+  }
+
+  .emergency-title {
+    font-size: 34px;
+  }
+
+  .emergency-subtitle {
+    font-size: 24px;
+    width: 80%;
+  }
 }
+
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
 
 @media (max-width: 1024px) {
   .inner-header {
@@ -33,14 +54,60 @@
     font-size: 15px;
     padding: 10px 22px;
   }
+
+  /* <!-- ========================================== --> */
+
+  .hero-inner {
+    min-height: 500px;
+  }
+
+  .hero-content {
+    padding-left: 30px;
+    width: 55%;
+  }
+
+  .hero-title {
+    font-size: 36px;
+    margin-bottom: 15px;
+  }
+
+  .hero-description {
+    font-size: 16px;
+    margin-bottom: 25px;
+  }
+
+  .btn-primary {
+    font-size: 16px;
+    padding: 12px 28px;
+  }
+
+  .emergency-section {
+    padding: 60px 40px;
+  }
+
+  .emergency-title {
+    font-size: 30px;
+  }
+
+  .emergency-subtitle {
+    font-size: 22px;
+    width: 90%;
+  }
+
+  .emergency-inner p {
+    font-size: 18px;
+  }
 }
 
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
 @media (max-width: 768px) {
   .inner-header {
     height: 85px;
   }
   .nav-links {
-    display: none; 
+    display: none;
   }
   .nav-zone {
     padding-right: 40px;
@@ -67,15 +134,74 @@
     font-size: 14px;
     padding: 8px 18px;
   }
+
+  /* <!-- ========================================== --> */
+  .hero-inner {
+    flex-direction: column;
+    min-height: auto;
+    height: auto;
+  }
+
+  .hero-content {
+    position: relative;
+    top: 0;
+    transform: none;
+    width: 100%;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-title {
+    font-size: 25px;
+  }
+
+  .hero-img {
+    padding-top: 0;
+    margin-top: -20px;
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .hero-image-box {
+    overflow: hidden;
+  }
+
+  .emergency-section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .emergency-inner {
+    width: 100%;
+  }
+
+  .emergency-title {
+    font-size: 26px;
+  }
+
+  .emergency-subtitle {
+    font-size: 18px;
+    width: 100%;
+    align-items: center;
+  }
+  .action-zone2 {
+    width: 100%;
+    max-width: 280px;
+  }
 }
 
-
-
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
 
 @media (max-width: 480px) {
   .inner-header {
-    height: 75px; 
-    width: 95%;   
+    height: 75px;
+    width: 100%;
   }
 
   .nav-zone {
@@ -88,24 +214,25 @@
       calc(100% - 20px) 100%,
       0% 100%
     );
+    width: 100%;
   }
 
   .logo-text {
-    font-size: 18px; 
+    font-size: 18px;
     padding: 6px 12px;
   }
 
   .logo-img {
-    height: 24px; 
+    height: 24px;
   }
 
   .hamburger-btn {
-    font-size: 22px; 
+    font-size: 22px;
     margin-right: 15px;
   }
 
   .action-zone {
-    width: 140px; 
+    width: 140px;
     margin-left: -19px;
   }
 
@@ -113,18 +240,63 @@
     font-size: 12px;
     padding: 8px 14px;
   }
+
+  /* <!-- ========================================== --> */
+
+  .hero-content {
+    padding-top: 80px;
+    padding-bottom: 20px;
+  }
+
+  .hero-subtitle {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .hero-title {
+    font-size: 20px;
+  }
+
+  .hero-description {
+    font-size: 15px;
+  }
+
+  .hero-img {
+    margin-top: -15px;
+  }
+
+  .emergency-title {
+    font-size: 22px;
+  }
+
+  .emergency-subtitle {
+    font-size: 16px;
+  }
+
+  .emergency-inner p {
+    font-size: 15px;
+  }
+
+  .btn-contactus {
+    font-size: 14px;
+    padding: 6px 16px;
+  }
+  .action-zone2 {
+    width: 100%;
+    max-width: 170px;
+  }
 }
 
-
-
-
-
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
+/* <!-- ========================================== --> */
 @media (max-width: 320px) {
   .inner-header {
     height: 70px;
   }
 
   .nav-zone {
+    width: 100%;
     padding-left: 10px;
     padding-right: 25px;
     clip-path: polygon(
@@ -154,5 +326,46 @@
     font-size: 11px;
     border-radius: 0;
     text-shadow: none;
+  }
+
+  /* <!-- ========================================== --> */
+
+  .hero-content {
+    padding-top: 70px;
+    padding-bottom: 15px;
+  }
+
+  .hero-title {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .hero-description {
+    font-size: 14px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    padding: 10px 22px;
+  }
+
+  .hero-image-box {
+    height: 250px;
+  }
+
+  .emergency-title {
+    font-size: 18px;
+  }
+
+  .emergency-subtitle {
+    font-size: 14px;
+  }
+
+  .emergency-inner p {
+    font-size: 13px;
+  }
+
+  .hero-img {
+    margin-top: -10px;
   }
 }

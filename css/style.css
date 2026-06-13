@@ -70,10 +70,10 @@ body {
 }
 
 .hamburger-btn {
-  display: none;    
-  cursor: pointer; 
-  color: white;    
-  font-size: 28px;  
+  display: none;
+  cursor: pointer;
+  color: white;
+  font-size: 28px;
 }
 
 /* Navigation Links */
@@ -97,7 +97,6 @@ body {
   border-radius: 5px;
 }
 
-/* --- Right side --- */
 .action-zone {
   background-color: darkblue;
   width: 320px;
@@ -110,7 +109,6 @@ body {
   z-index: 1;
 }
 
-/*  Appointment Button */
 .btn-appointment {
   background-color: deepskyblue;
   color: white;
@@ -123,4 +121,196 @@ body {
 
 .btn-appointment:hover {
   background-color: blue;
+}
+
+/* ==========================================================================
+HERO SECTION
+   ========================================================================== */
+.hero-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: aliceblue;
+  /* padding-top: 110px;  */
+  overflow: hidden;
+}
+
+.hero-inner {
+  position: relative;
+  display: flex;
+  width: 100%;
+  max-width: 2000px;
+  min-height: 700px;
+  height: auto;
+}
+
+/*  Content  */
+.hero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(50%);
+  z-index: 5;
+  width: 50%;
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.hero-subtitle {
+  color: rgb(41, 70, 186);
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.hero-title {
+  color: darkblue;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.hero-description {
+  color: slategray;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+/* Blue Oval Button */
+.btn-primary {
+  background-color: red;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 14px 35px;
+  border-radius: 50px;
+  align-items: center;
+  gap: 10px;
+  transition: 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: blue;
+}
+
+.hero-image-box {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  flex: 1;
+  max-width: 2000px;
+  height: 100%;
+  display: flex;
+}
+
+.hero-img {
+  max-width: 100%;
+  padding-top: 30px;
+  display: block;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* ==========================================================================
+CONTACT US + SERVICES
+========================================================================== */
+.emergency-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: rosybrown;
+  padding: 80px 0px 80px 80px;
+}
+
+.emergency-inner {
+  display: flex;
+  flex-direction: column;
+  max-width: 2000px;
+  align-items: center;
+  line-height: 1.5;
+  box-shadow: 0px 4px 12px red;
+}
+
+.emergency-title {
+  color: darkblue;
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.emergency-subtitle {
+  color: rgb(41, 70, 186);
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+  width: 65%;
+  text-decoration: underline;
+}
+
+.emergency-inner p {
+  font-size: 20px;
+  margin: 10px 0;
+  text-shadow: 2px 2px 3px white;
+}
+
+/*  contact+services  button */
+
+.action-zone2 {
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-contactus {
+  background-color: rgb(55, 0, 255);
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 14px 35px;
+  border-radius: 50px;
+  text-shadow: 2px 2px 3px black;
+  display: inline-block;
+  animation: gentle-pulse 2s ease-in-out infinite;
+  box-shadow: 0px 4px 12px #e2e8f0;
+}
+
+@keyframes gentle-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.btn-contactus:hover {
+  background-color: red;
+  animation: vibrate 0.15s linear infinite;
+}
+
+@keyframes vibrate {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-2px);
+  }
+  75% {
+    transform: translateX(2px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
