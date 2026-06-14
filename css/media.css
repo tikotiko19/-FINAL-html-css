@@ -19,8 +19,11 @@
     font-size: 24px;
     width: 80%;
   }
-    /* <!-- ========================================== --> */
+  /* <!-- ========================================== --> */
 
+  .trust-heading {
+    font-size: 28px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -55,6 +58,9 @@
   .btn-appointment {
     font-size: 15px;
     padding: 10px 22px;
+  }
+  .top-info-right {
+    gap: 20px;
   }
 
   /* <!-- ========================================== --> */
@@ -98,12 +104,30 @@
 
   .emergency-inner p {
     font-size: 18px;
+    margin-bottom: 10px;
   }
 
-    /* <!-- ========================================== --> */
+  /* <!-- ========================================== --> */
 
+  .dept-main-title {
+    font-size: 34px;
+  }
 
+  .dept-card {
+    width: 45%;
+  }
 
+  .trust-inner {
+    min-height: auto;
+  }
+
+  .trust-info-panel {
+    padding: 50px 40px;
+  }
+
+  .trust-heading {
+    font-size: 26px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -142,6 +166,22 @@
     padding: 8px 18px;
   }
 
+  .top-bar-inner > .top-info-item:first-child {
+    display: none;
+  }
+
+  .top-info-item {
+    margin-right: 150px;
+  }
+
+  .number {
+    margin-right: 0;
+  }
+
+  .top-bar-inner {
+    justify-content: center;
+  }
+
   /* <!-- ========================================== --> */
   .hero-inner {
     flex-direction: column;
@@ -155,7 +195,7 @@
     transform: none;
     width: 100%;
     align-items: center;
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 30px;
     display: flex;
     flex-direction: column;
@@ -180,6 +220,7 @@
   .emergency-section {
     padding: 50px 20px;
     text-align: center;
+    flex-direction: column;
   }
 
   .emergency-inner {
@@ -195,17 +236,63 @@
     width: 100%;
     align-items: center;
   }
+
   .action-zone2 {
     width: 100%;
-    max-width: 280px;
+    max-width: 768px;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
   }
 
-    /* <!-- ========================================== --> */
 
+  .btn-contactus {
+    background-color: red;
+  }
 
+  .btn-contactus:hover {
+    background-color: rgb(55, 0, 255);
+  }
 
+  /* <!-- ========================================== --> */
 
+  .dept-section {
+    padding: 60px 0;
+  }
 
+  .dept-main-title {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .dept-header {
+    margin-bottom: 40px;
+  }
+
+  .dept-card {
+    width: 250px;
+  }
+
+  .trust-inner {
+    flex-direction: column;
+  }
+
+  .trust-info-panel {
+    text-align: center;
+    padding: 50px 30px;
+    align-items: center;
+  }
+
+  .trust-heading {
+    max-width: 100%;
+  }
+
+  .trust-graphic-box {
+    width: 100%;
+    padding: 20px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -255,11 +342,25 @@
     padding: 8px 14px;
   }
 
+  .top-info-item {
+    margin-right: 40px;
+  }
+
+  .number {
+    margin-right: 0;
+  }
+
   /* <!-- ========================================== --> */
 
   .hero-content {
-    padding-top: 80px;
-    padding-bottom: 20px;
+    position: relative;
+    top: 0;
+    transform: none;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0 20px 0;
   }
 
   .hero-subtitle {
@@ -297,13 +398,28 @@
   }
   .action-zone2 {
     width: 100%;
-    max-width: 170px;
+    max-width: 480px;
   }
 
   /* <!-- ========================================== --> */
 
+  .dept-card {
+    width: 100%;
+    height: 190px;
+  }
 
+  .dept-main-title {
+    font-size: 26px;
+  }
 
+  .trust-heading {
+    font-size: 22px;
+  }
+
+  .trust-action-btn {
+    font-size: 14px;
+    padding: 10px 24px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -347,11 +463,31 @@
     text-shadow: none;
   }
 
+  .top-info-item {
+    margin-right: 0;
+    padding: 0;
+  }
+
+  .top-info-item i {
+    font-size: 12px;
+  }
+
+  .top-info-item span {
+    font-size: 10px;
+  }
+
   /* <!-- ========================================== --> */
 
   .hero-content {
-    padding-top: 70px;
+    position: relative;
+    top: 0;
+    transform: none;
+    width: 100%;
+    align-items: center;
+    padding-top: 150px;
     padding-bottom: 15px;
+    display: flex;
+    flex-direction: column;
   }
 
   .hero-title {
@@ -388,8 +524,17 @@
     margin-top: -10px;
   }
 
-
   /* <!-- ========================================== --> */
 
+  .dept-main-title {
+    font-size: 22px;
+  }
 
+  .dept-lead-text {
+    font-size: 14px;
+  }
+
+  .trust-heading {
+    font-size: 18px;
+  }
 }
