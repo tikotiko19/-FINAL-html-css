@@ -707,3 +707,187 @@ CONTACT US + SERVICES
 .btn-why-about:hover {
   background-color: rgb(0, 35, 115);
 }
+
+
+
+
+
+/* NEXT SECTION */
+/* NEXT SECTION */
+/* Footer */
+
+/* ==========================================================================
+   ========================================================================= */
+
+
+
+
+.site-foot-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: whitesmoke; 
+  padding: 80px 0 60px 0;
+  border-top: 1px solid rgb(235, 240, 245);
+}
+
+.site-foot-inner {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 2000px;
+}
+
+.site-foot-top-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgb(235, 240, 245); 
+}
+
+.site-foot-brand-col {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.site-foot-brand-col .logo-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px; 
+}
+
+.site-foot-brand-col .logo-text {
+  box-shadow: none; 
+  border-radius: 0;
+  padding: 0;        
+}
+
+.site-foot-brand-desc {
+  color: slategray;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.site-foot-links-col {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding-left: 40px; 
+}
+
+.site-foot-col-title {
+  color: rgb(0, 35, 115);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.site-foot-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.site-foot-link {
+  color: slategray;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.2s ease, transform 0.2s ease;
+  display: inline-block;
+}
+
+.site-foot-link:hover {
+  color: rgb(41, 70, 186); 
+  transform: translateX(3px); 
+}
+
+.site-foot-bottom-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 40px;
+}
+
+.site-foot-socials-box {
+  display: flex;
+  gap: 12px;
+}
+
+.site-foot-social-btn {
+  background-color: rgb(41, 70, 186); 
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 6px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.site-foot-social-btn:hover {
+  background-color: rgb(0, 35, 115);
+  transform: translateY(-2px);
+}
+
+.site-foot-news-box {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.site-foot-news-title {
+  color: rgb(0, 35, 115);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.site-foot-news-form {
+  display: flex;
+  align-items: center;
+}
+
+.site-foot-news-input {
+  border: 1px solid rgb(215, 225, 235);
+  border-right: none; 
+  background-color: white;
+  padding: 14px 20px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  color: rgb(0, 35, 115);
+  width: 250px;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.site-foot-news-input:focus {
+  border-color: rgb(41, 70, 186);
+}
+
+.site-foot-news-btn {
+  background-color: rgb(41, 70, 186);
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.site-foot-news-btn:hover {
+  background-color: rgb(0, 35, 115);
+}

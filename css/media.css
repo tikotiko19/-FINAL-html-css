@@ -47,6 +47,15 @@
   .stat-big-number {
     font-size: 44px;
   }
+
+  /* <!-- ========================================== --> */
+  .site-foot-links-col {
+    padding-left: 20px;
+  }
+
+  .site-foot-news-box {
+    gap: 20px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -187,6 +196,27 @@
 
   .stat-big-number {
     font-size: 36px;
+  }
+
+  /* <!-- ========================================== --> */
+
+  .site-foot-top-row {
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .site-foot-brand-col {
+    max-width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .site-foot-brand-desc {
+    text-align: center;
+  }
+
+  .site-foot-links-col {
+    padding-left: 0;
   }
 }
 
@@ -386,6 +416,40 @@
   .stat-label {
     max-width: 100%;
   }
+
+  /* <!-- ========================================== --> */
+
+  .site-foot-section {
+    padding: 60px 0 40px 0;
+  }
+
+  .site-foot-top-row {
+    flex-direction: row;
+    gap: 35px;
+    padding-bottom: 40px;
+  }
+
+  .site-foot-bottom-row {
+    flex-direction: column-reverse;
+    gap: 35px;
+    padding-top: 40px;
+  }
+
+  .site-foot-news-box {
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+  }
+
+  .site-foot-news-form {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .site-foot-news-input {
+    width: 60%;
+    max-width: 280px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -540,6 +604,35 @@
     font-size: 16px;
     padding: 12px 35px;
   }
+
+  /* <!-- ========================================== --> */
+
+  .site-foot-top-row {
+    text-align: left;
+  }
+
+  .doctors-list {
+    display: none;
+  }
+
+  .site-foot-brand-col .logo-wrap {
+    justify-content: center;
+  }
+
+  .site-foot-brand-desc {
+    font-size: 14px;
+  }
+
+  .site-foot-news-input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 14px;
+  }
+
+  .site-foot-news-btn {
+    padding: 13px 20px;
+    font-size: 14px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -674,5 +767,33 @@
 
   .stat-big-number {
     font-size: 32px;
+  }
+
+  /* <!-- ========================================== --> */
+
+  .site-foot-col-title {
+    font-size: 16px;
+  }
+
+  .site-foot-link {
+    font-size: 14px;
+  }
+
+  .site-foot-news-form {
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  .site-foot-news-input {
+    border: 1px solid rgb(215, 225, 235);
+    border-radius: 6px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .site-foot-news-btn {
+    border-radius: 6px;
+    width: 100%;
   }
 }
