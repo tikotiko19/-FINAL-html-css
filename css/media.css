@@ -24,6 +24,29 @@
   .trust-heading {
     font-size: 28px;
   }
+
+  /* <!-- ========================================== --> */
+
+  /* .features-left-block,
+  .features-right-block {
+    padding: 80px 40px;
+  } */
+
+  .features-inner {
+    gap: 50px;
+  }
+
+  .features-left-block {
+    padding: 80px 40px;
+  }
+
+  .why-main-heading {
+    font-size: 34px;
+  }
+
+  .stat-big-number {
+    font-size: 44px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -127,6 +150,43 @@
 
   .trust-heading {
     font-size: 26px;
+  }
+
+  /* <!-- ========================================== --> */
+
+  /* .features-left-block,
+  .features-right-block {
+    padding: 60px 30px;
+  } */
+
+  .features-inner {
+    gap: 50px;
+  }
+
+  .features-right-block {
+    padding-left: 60px;
+  }
+
+  .features-left-block {
+    padding: 60px 30px;
+  }
+
+  .why-main-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .why-lead-text {
+    margin-bottom: 35px;
+  }
+
+  .why-stats-part {
+    gap: 30px;
+    margin-bottom: 40px;
+  }
+
+  .stat-big-number {
+    font-size: 36px;
   }
 }
 
@@ -247,7 +307,6 @@
     margin-top: 40px;
   }
 
-
   .btn-contactus {
     background-color: red;
   }
@@ -292,6 +351,40 @@
   .trust-graphic-box {
     width: 100%;
     padding: 20px;
+  }
+
+  /* <!-- ========================================== --> */
+  .features-inner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .features-left-block {
+    padding: 50px 30px;
+    gap: 35px;
+  }
+
+  .features-right-block {
+    padding: 50px 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .why-main-heading {
+    max-width: 100%;
+  }
+
+  .why-lead-text {
+    max-width: 100%;
+  }
+
+  .why-stats-part {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .stat-label {
+    max-width: 100%;
   }
 }
 
@@ -420,6 +513,33 @@
     font-size: 14px;
     padding: 10px 24px;
   }
+
+  /* <!-- ========================================== --> */
+
+  .feat-row-item {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .feat-item-desc {
+    max-width: 100%;
+  }
+
+  .why-main-heading {
+    font-size: 24px;
+  }
+
+  .why-stats-part {
+    flex-direction: column;
+    gap: 25px;
+    margin-bottom: 35px;
+  }
+
+  .btn-why-about {
+    font-size: 16px;
+    padding: 12px 35px;
+  }
 }
 
 /* <!-- ========================================== --> */
@@ -536,5 +656,23 @@
 
   .trust-heading {
     font-size: 18px;
+  }
+
+  /* <!-- ========================================== --> */
+  .features-left-block,
+  .features-right-block {
+    padding: 40px 15px;
+  }
+
+  .feat-item-title {
+    font-size: 18px;
+  }
+
+  .why-main-heading {
+    font-size: 20px;
+  }
+
+  .stat-big-number {
+    font-size: 32px;
   }
 }
