@@ -56,6 +56,21 @@
   .site-foot-news-box {
     gap: 20px;
   }
+
+
+    /* <!-- ========================================== --> */
+/*  
+      .consult-info-pane, 
+  .consult-form-pane {
+    padding: 80px 40px; 
+  } */
+
+  .consult-main-title {
+    font-size: 34px;
+    margin-bottom: 35px;
+  }
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -218,6 +233,22 @@
   .site-foot-links-col {
     padding-left: 0;
   }
+
+  /* <!-- ========================================== --> */
+ .consult-main-title {
+    font-size: 28px;
+  }
+
+  .consult-form-card {
+    padding: 40px 25px; 
+  }
+
+  .consult-booking-form {
+    gap: 15px;
+  }
+
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -450,6 +481,42 @@
     width: 60%;
     max-width: 280px;
   }
+
+  /* <!-- ========================================== --> */
+
+ .consult-section {
+    background: rgb(41, 120, 255); 
+  }
+
+  .consult-inner {
+    flex-direction: column; 
+  }
+
+  .consult-info-pane {
+    padding: 60px 30px 40px 30px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .consult-main-title {
+    max-width: 100%;
+  }
+
+  .consult-row-item {
+    max-width: 100%;
+    justify-content: center;
+  }
+
+  .consult-form-pane {
+    padding: 20px 30px 60px 30px;
+    justify-content: center;
+  }
+
+  .consult-form-card {
+    max-width: 100%;
+  }
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -633,6 +700,28 @@
     padding: 13px 20px;
     font-size: 14px;
   }
+
+  /* <!-- ========================================== --> */
+ .consult-main-title {
+    font-size: 24px;
+  }
+
+  .consult-form-row {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .consult-text-box p {
+    font-size: 14px;
+  }
+
+  .btn-consult-submit {
+    width: 100%;
+  }
+
+
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -796,4 +885,35 @@
     border-radius: 6px;
     width: 100%;
   }
+
+
+    /* <!-- ========================================== --> */
+
+
+ .consult-info-pane, 
+  .consult-form-pane {
+    padding-left: 15px;
+    padding-right: 15px; 
+  }
+
+  .consult-main-title {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .consult-row-item {
+    gap: 15px;
+  }
+
+  .consult-icon-box {
+    font-size: 24px;
+  }
+
+  .consult-form-card {
+    padding: 30px 15px;
+  }
+
+
+
+
 }
