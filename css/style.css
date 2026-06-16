@@ -637,7 +637,6 @@ CONTACT US + SERVICES
   padding: 80px 0 0 100px;
   display: flex;
   flex-direction: column;
-
 }
 
 .why-main-heading {
@@ -677,8 +676,7 @@ CONTACT US + SERVICES
   font-family: "Roboto", sans-serif;
   font-size: 52px;
   font-weight: 700;
-   text-shadow: 2px 2px 3px black;
-
+  text-shadow: 2px 2px 3px black;
 }
 
 .stat-label {
@@ -699,15 +697,11 @@ CONTACT US + SERVICES
   border-radius: 5px;
   display: inline-block;
   transition: background-color 0.2s ease;
-
-
-
 }
 
 .btn-why-about:hover {
   background-color: rgb(0, 35, 115);
 }
-
 
 /* NEXT SECTION */
 /* NEXT SECTION */
@@ -719,7 +713,11 @@ CONTACT US + SERVICES
   display: flex;
   justify-content: center;
   width: 100%;
-  background: linear-gradient(to right, rgb(41, 120, 255) 55%, rgb(70, 200, 255) 55%);
+  background: linear-gradient(
+    to right,
+    rgb(41, 120, 255) 55%,
+    rgb(70, 200, 255) 55%
+  );
 }
 
 .consult-inner {
@@ -794,7 +792,7 @@ CONTACT US + SERVICES
 }
 
 .btn-consult-map {
-  background-color: rgb(70, 200, 255); 
+  background-color: rgb(70, 200, 255);
   color: white;
   font-family: "Roboto", sans-serif;
   font-size: 15px;
@@ -854,7 +852,7 @@ CONTACT US + SERVICES
 }
 
 .consult-field-label {
-  color: rgb(0, 35, 115); 
+  color: rgb(0, 35, 115);
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 600;
@@ -895,9 +893,8 @@ CONTACT US + SERVICES
   border-color: rgb(41, 120, 255);
 }
 
-
 .btn-consult-submit {
-  background-color: rgb(235, 240, 250); 
+  background-color: rgb(235, 240, 250);
   color: slategray;
   border: 1px solid rgb(180, 200, 230);
   padding: 12px 35px;
@@ -915,7 +912,10 @@ CONTACT US + SERVICES
   border-color: rgb(41, 120, 255);
 }
 
-
+#booking-form:target {
+  scroll-behavior: smooth;
+  scroll-margin-top: 45px;
+}
 
 /* NEXT SECTION */
 /* NEXT SECTION */
@@ -924,14 +924,11 @@ CONTACT US + SERVICES
 /* ==========================================================================
    ========================================================================= */
 
-
-
-
 .site-foot-section {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: whitesmoke; 
+  background-color: whitesmoke;
   padding: 80px 0 60px 0;
   border-top: 1px solid rgb(235, 240, 245);
 }
@@ -948,7 +945,7 @@ CONTACT US + SERVICES
   justify-content: space-between;
   width: 100%;
   padding-bottom: 60px;
-  border-bottom: 1px solid rgb(235, 240, 245); 
+  border-bottom: 1px solid rgb(235, 240, 245);
 }
 
 .site-foot-brand-col {
@@ -961,13 +958,13 @@ CONTACT US + SERVICES
 .site-foot-brand-col .logo-wrap {
   display: flex;
   align-items: center;
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 .site-foot-brand-col .logo-text {
-  box-shadow: none; 
+  box-shadow: none;
   border-radius: 0;
-  padding: 0;        
+  padding: 0;
 }
 
 .site-foot-brand-desc {
@@ -981,7 +978,7 @@ CONTACT US + SERVICES
   display: flex;
   flex-direction: column;
   gap: 25px;
-  padding-left: 40px; 
+  padding-left: 40px;
 }
 
 .site-foot-col-title {
@@ -1002,13 +999,15 @@ CONTACT US + SERVICES
   font-family: "Roboto", sans-serif;
   font-size: 15px;
   text-decoration: none;
-  transition: color 0.2s ease, transform 0.2s ease;
+  transition:
+    color 0.2s ease,
+    transform 0.2s ease;
   display: inline-block;
 }
 
 .site-foot-link:hover {
-  color: rgb(41, 70, 186); 
-  transform: translateX(3px); 
+  color: rgb(41, 70, 186);
+  transform: translateX(3px);
 }
 
 .site-foot-bottom-row {
@@ -1025,16 +1024,18 @@ CONTACT US + SERVICES
 }
 
 .site-foot-social-btn {
-  background-color: rgb(41, 70, 186); 
+  background-color: rgb(41, 70, 186);
   color: white;
   width: 40px;
   height: 40px;
-  border-radius: 6px; 
+  border-radius: 6px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 18px;
-  transition: background-color 0.2s ease, transform 0.2s ease;
+  transition:
+    background-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .site-foot-social-btn:hover {
@@ -1062,7 +1063,7 @@ CONTACT US + SERVICES
 
 .site-foot-news-input {
   border: 1px solid rgb(215, 225, 235);
-  border-right: none; 
+  border-right: none;
   background-color: white;
   padding: 14px 20px;
   font-family: "Roboto", sans-serif;
@@ -1096,3 +1097,110 @@ CONTACT US + SERVICES
 .site-foot-news-btn:hover {
   background-color: rgb(0, 35, 115);
 }
+
+
+/* ==========================================================================
+   DOCTORS html page 
+   ========================================================================== */
+.doc-page-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  padding: 185px 0 100px 0;
+}
+
+.doc-page-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  max-width: 2000px;
+}
+
+.doc-page-header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 70px;
+}
+
+.doc-page-main-heading {
+  color: rgb(0, 35, 115);
+  font-family: "Roboto", sans-serif;
+  font-size: 38px;
+  font-weight: 700;
+}
+
+.doc-page-sub-heading {
+  color: slategray;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.doc-page-grey {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  gap: 40px 30px;
+}
+
+.doc-page-card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 23%;
+  min-width: 250px;
+}
+
+.doc-page-img-frame {
+  width: 100%;
+  height: 320px;
+  background-color: rgb(240, 244, 250);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.doc-page-pic {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.doc-page-name {
+  color: rgb(0, 35, 115);
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.doc-page-specialty {
+  color: slategray;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.doc-page-desc {
+  color: slategray;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-top: 8px;
+  max-width: 240px;
+}
+
+/* ==========================================================================
+   new html page 
+   ========================================================================== */
+   
