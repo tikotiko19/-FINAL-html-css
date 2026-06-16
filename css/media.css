@@ -71,6 +71,8 @@
   /* ==========================================================================
    new PAGE  RESPONSIVE
    ========================================================================== */
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -266,6 +268,29 @@
   /* ==========================================================================
    new PAGE  RESPONSIVE
    ========================================================================== */
+.about-intro-section {
+    padding-top: 165px; 
+  }
+
+  .about-intro-heading {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
+  .about-intro-right {
+    min-height: 450px;
+  }
+
+  .main-frame {
+    height: 400px;
+  }
+
+  .secondary-frame {
+    height: 250px;
+    left: -5%; 
+  }
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -554,6 +579,36 @@
   /* ==========================================================================
    new PAGE  RESPONSIVE
    ========================================================================== */
+.about-intro-section {
+    padding-top: 155px;
+    padding-bottom: 60px;
+  }
+
+  .about-intro-inner {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .about-intro-left {
+    padding-right: 0;
+    align-items: center; 
+    text-align: center;
+    width: 100%;
+  }
+
+  .about-intro-heading,
+  .about-intro-desc,
+  .about-intro-extra-text {
+    max-width: 100%;
+  }
+
+  .about-intro-right {
+    width: 100%;
+    max-width: 500px; 
+    margin: 0 auto;
+  }
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -774,6 +829,32 @@
   /* ==========================================================================
    new PAGE  RESPONSIVE
    ========================================================================== */
+ .about-intro-heading {
+    font-size: 24px;
+  }
+
+  .about-intro-right {
+    min-height: 350px;
+  }
+  
+  .main-frame {
+    width: 85%;
+    height: 320px;
+  }
+
+  .secondary-frame {
+    width: 60%;
+    height: 200px;
+    left: -8%;
+    border-width: 4px; 
+  }
+
+  .btn-about-to-docs {
+    font-size: 15px;
+    padding: 10px 30px;
+  }
+
+
 }
 
 /* <!-- ========================================== --> */
@@ -982,4 +1063,37 @@
   /* ==========================================================================
    new PAGE  RESPONSIVE
    ========================================================================== */
+
+ .about-intro-section {
+    padding-top: 140px; 
+  }
+
+  .about-intro-heading {
+    font-size: 20px;
+  }
+
+  .about-intro-desc,
+  .about-intro-extra-text {
+    font-size: 14px;
+  }
+
+  .about-intro-right {
+    flex-direction: column;
+    align-items: center;
+    min-height: auto;
+    gap: 15px;
+  }
+
+  .main-frame,
+  .secondary-frame {
+    position: relative;
+    width: 100%;
+    max-width: 280px;
+    height: 220px;
+    left: 0;
+    bottom: 0;
+    border: none; 
+  }
+
+
 }
