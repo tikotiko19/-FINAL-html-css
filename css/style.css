@@ -55,7 +55,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  /* gap: 40px; */
+  gap: 40px;
 }
 
 .top-info-item {
