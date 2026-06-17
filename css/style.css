@@ -275,6 +275,7 @@ HERO SECTION
   font-weight: 600;
   margin-bottom: 20px;
   text-transform: capitalize;
+  font-family: "Inter", sans-serif;
 }
 
 .hero-title {
@@ -291,6 +292,7 @@ HERO SECTION
   font-size: 18px;
   line-height: 1.6;
   margin-bottom: 35px;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Blue Oval Button */
@@ -392,6 +394,7 @@ CONTACT US + SERVICES
   font-size: 20px;
   margin: 20px;
   text-shadow: 2px 2px 3px white;
+  font-family: "Open Sans", sans-serif;
 }
 
 /*  contact+services  button */
@@ -1304,9 +1307,9 @@ CONTACT US + SERVICES
 
 .site-foot-brand-desc {
   color: slategray;
-  font-family: "Roboto", sans-serif;
   font-size: 15px;
   line-height: 1.6;
+  font-family: "Inter", sans-serif;
 }
 
 .site-foot-links-col {
