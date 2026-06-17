@@ -71,6 +71,9 @@
   /* ==========================================================================
    new PAGE  RESPONSIVE
    ========================================================================== */
+.blog-page-card {
+    width: 31%; 
+  }
 
 
 }
@@ -288,6 +291,47 @@
   .secondary-frame {
     height: 250px;
     left: -5%; 
+  }
+
+
+   .dept-section {
+    padding-top: 165px; 
+  }
+
+
+  /* blog page */
+
+   .blog-page-section {
+    padding-top: 165px; 
+  }
+
+  .blog-page-card {
+    width: 46%; 
+  }
+
+  .blog-page-main-heading {
+    font-size: 42px;
+  }
+
+  .blog-page-sub-heading {
+    font-size: 16px;
+  }
+
+
+/* contact us */
+ .con-call-section {
+    padding-top: 165px;
+    padding-left: 30px;
+    min-height: 550px;
+  }
+  
+  .con-call-text-panel {
+    max-width: 420px;
+    padding: 35px;
+  }
+
+  .con-call-title {
+    font-size: 28px;
   }
 
 
@@ -608,6 +652,51 @@
     margin: 0 auto;
   }
 
+   .dept-section {
+    padding-top: 155px;
+    padding-bottom: 60px;
+  }
+
+
+
+  .blog-page-section {
+    padding-top: 155px;
+    padding-bottom: 60px;
+  }
+
+  .blog-page-header {
+    margin-bottom: 45px;
+  }
+
+  .blog-page-card {
+    width: 280px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .blog-page-main-heading {
+    font-size: 36px;
+  }
+
+
+
+  /* contact us */
+
+   .con-call-section {
+    padding-top: 155px;
+    padding-left: 0;
+    justify-content: center;
+    min-height: 500px;
+  }
+
+  .con-call-inner {
+    justify-content: center;
+  }
+
+  .con-call-text-panel {
+    max-width: 400px;
+  }
+
 
 }
 
@@ -854,6 +943,35 @@
     padding: 10px 30px;
   }
 
+  .blog-page-card {
+    width: 100%; 
+  }
+
+  .blog-page-img-frame {
+    height: 220px; 
+  }
+
+  .blog-page-main-heading {
+    font-size: 30px;
+  }
+
+
+    .con-call-section {
+    padding-top: 150px;
+  }
+
+  .con-call-title {
+    font-size: 24px;
+  }
+
+  .con-call-action-zone {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .con-call-btn {
+    width: 100%;
+  }
 
 }
 
@@ -1093,6 +1211,47 @@
     left: 0;
     bottom: 0;
     border: none; 
+  }
+
+   .dept-section {
+    padding-top: 140px; 
+  }
+
+
+  /* blog pgage */
+
+  
+  .blog-page-section {
+    padding-top: 140px; 
+  }
+
+  .blog-page-main-heading {
+    font-size: 26px;
+  }
+
+  .blog-page-img-frame {
+    height: 180px;
+  }
+  
+  .blog-page-title {
+    font-size: 16px;
+  }
+
+  .con-call-section {
+    padding-top: 140px;
+  }
+
+  .con-call-text-panel {
+    padding: 25px 20px;
+    max-width: 100%;
+  }
+
+  .con-call-title {
+    font-size: 20px;
+  }
+
+  .con-call-subtitle {
+    font-size: 14px;
   }
 
 
